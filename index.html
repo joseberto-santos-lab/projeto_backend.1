@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro de Cliente</h1>
+    <hr>
+    <form id="formCliente">
+     <label for="nome">
+        nome:
+        <input type="text" id="nome" required>
+     </label>  
+     <br><br>
+     <label for="e-mail">
+        e-mail:
+        <input type="e-mail" id="e-mail" size="50">
+     </label> 
+     <br><br>
+     <label for="telefone">
+        telefone:
+        <input type="text" id="telefone" minlength="11" maxlength="11" placeholder="DDD e numeros somente">
+     </label>
+     <br><br>
+     <label for="endereço">
+        endereço:
+        <input type="text" id="endereço" size="80">
+     </label>
+     <br><br>
+     <label for="dataNasc">
+        data de nacimento:
+        <input type="date" id="dataNasc">
+     </label>
+     <br><br>
+     <button type="submit">Salvar</button>
+    </form>
+    <div id="msg"></div>
+    <br><br>
+    <button id="listarClientes">Listar Clientes</button>
+</body>
+</html>
